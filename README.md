@@ -31,10 +31,3 @@ In addition to technical skills, I learned more about how cookies work behind th
 
 ## Challenges
 One of the main challenges was making sure all pages were consistent and connected properly. Debugging issues like broken images, incorrect file paths, and styling problems took time. It also took effort to organize the content in a way that was clear and easy to follow.
-
-## Author
-Axel Palacios  
-Information Technology Student  
-Kennesaw State University  
-
-GitHub: https://github.com/APalacios01
