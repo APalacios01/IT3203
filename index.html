@@ -1,88 +1,106 @@
+<!-- This is the homepage of the website. It introduces the topic of cookies and privacy,
+provides key terms, and includes navigation to all other sections of the site. -->
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Basic page setup -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KSU IT 3203</title>
-    <link rel="stylesheet" href="style-a.css">
+    <title>Web Cookies and Privacy | Home</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <main>
-<h1>KSU IT 3203 Introduction to Web Development</h1>
+    <!-- Site header and navigation -->
+    <header>
+        <div class="container">
+            <h1>Web Cookies and Privacy</h1>    <!-- Site title -->
+            <p class="tagline">Understanding how modern websites collect, store, and use user data</p>
 
-<nav>
-    <a href="index.html">Home</a>
-    <a href="content.html">Content</a>
-    <a href="website-examples.html">Website Examples</a>
-</nav>
-<h2>Course Introduction</h2>
-<p>This course introduces the basics of web technologies and web development. 
-   The course focuses on frontend development using HTML, CSS, and JavaScript.</p>
-<h3>Tools used in this class</h3>
-<div class="exteral-sites">
-     <a href="https://code.visualstudio.com/" target="_blank">
-        <img width="20" src="https://code.visualstudio.com/assets/images/code-stable.png">
-   Visual Studio Code</a>
-    <a href="https://pages.github.com" target="_blank">
-        <img width="20" src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png">
-        GitHub Pages</a>
-    <a href="https://codepen.io/" target="_blank">
-        <img width="13" src="https://blog.codepen.io/wp-content/uploads/2023/09/logo-black.png">
-        Code Pen</a>
-</div>
-<h2>Course Content and Materials</h2>
-<p>See <a href="content.html" class="nav">Content Page</a>
-</p>
-<h2>Learning Resources</h2>
-<h3>General Learning Resources for Web Development</h3>
-<div class="exteral-sites">
-    <a href="https://www.w3schools.com/" target="_blank">
-        <img width="20" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/255px-W3Schools_logo.svg.png">
-        W3Schools</a>
+                <!-- Navigation menu -->
+            <nav>
+                <ul class="nav-menu">   <!-- List of navigation links -->
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="basics.html">Cookie Basics</a></li>
+                    <li><a href="privacy.html">Privacy Issues</a></li>
+                    <li><a href="concepts.html">Key Concepts</a></li>
+                    <li><a href="references.html">References</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main page content -->
+    <main class="container">
+        <section id="intro" class="card">
+            <h2>Introduction</h2>    <!-- This is a subheading -->
+            <p>
+                Cookies are a major part of how websites create personalized experiences for users.
+                They help websites remember logins, save preferences, and improve convenience. At the same time,
+                cookies have also become part of larger conversations about online privacy, data collection,
+                and how much information users are giving away without fully realizing it.
+            </p>
+            <p>
+                I chose this topic because cookies seem simple at first, but they have a much bigger effect on
+                the web than most people think. They influence convenience, advertising, analytics, and privacy,
+                which makes them an important part of modern web development.
+            </p>
+        </section>
+
+        <!-- image section -->
+        <section class="card">
+            <img src="images/cookies.png"
+                 alt="Cookies and privacy website illustration"
+                 class="main-image">
+        </section>
+
+        <section class="grid-layout">
+            <article class="card">
+                <h2>Why This Topic Matters</h2>   <!-- This is a subheading -->
+                <p>
+                    In web development, understanding cookies is important because developers often use them to
+                    improve user experience. However, developers also have a responsibility to think about privacy,
+                    transparency, and ethical data use. A website should not only function well, but also respect
+                    the user.
+                </p>
+            </article>
+
+            <!-- Key Terms section -->
+            <article class="card">
+                <h2>Key Terms</h2>   <!-- This is a subheading -->
+                <ul>    
+                    <li>Cookies</li>    
+                    <li>Session data</li>
+                    <li>User consent</li>
+                    <li>Tracking</li>   
+                    <li>Privacy policy</li>
+                    <li>First-party cookies</li>
+                    <li>Third-party cookies</li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- The table of contents -->
+        <section class="card">
+            <h2>Table of Contents</h2>   <!-- This is a subheading -->
+            <ol>
+                <li><a href="basics.html">Cookie Basics</a> - Explains what cookies are and how they work</li>
+                <li><a href="privacy.html">Privacy Issues</a> - Covers tracking, risks, and user concerns</li>
+                <li><a href="concepts.html">Key Concepts</a> - Defines important terms related to cookies</li>
+                <li><a href="references.html">References</a> - Links to useful resources that helped this project</li>
+                <li><a href="about.html">About</a> - Learn more about the Author and the project!</li>
+            </ol>
+        </section>
+    </main>
     
-    <a href="https://developer.mozilla.org/en-US/" target="_blank">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/MDN_Web_Docs_logo.svg/320px-MDN_Web_Docs_logo.svg.png">
-        MDN Web Docs</a>
-    <a href="https://web.dev" target="_blank">
-        <img src="https://web.dev/images/favicon-32x32.png">
-        web.dev</a>
-    <a href="https://www.freecodecamp.org" target="_blank">
-        <img src="https://www.freecodecamp.org/icons/icon-48x48.png">
-        freeCodeCamp</a>  
-    <a href="https://www.sitepoint.com/" target="_blank">
-        <img src="https://www.vectorlogo.zone/logos/sitepoint/sitepoint-icon.svg">
-        SitePoint</a>
-
-
-</div>
-<h3>Instructor's Learning Materials Related to Web Development</h3>
-<ul>
-<li><a href="https://www.edocr.com/user/jgzheng/collection/mobileandweblecturenotes" target="_blank">Mobile and Web Lecture Notes Hosted on EDOCR</a></li>
-<li><a href="https://codepen.io/Q-App" target="_blank">Instructor's Examples Hosted on CodePen</a></li>
-
-    <li><a href="https://jgzheng.github.io/IT3203/" target="_blank">KSU IT 3203 Intro to Web</a></li>
-    <li><a href="https://it4213.azurewebsites.net" target="_blank">KSU IT 4213 Mobile Web</a></li>
-    <li><a href="https://it4203.azurewebsites.net" target="_blank">KSU IT 4203 Advanced Web</a></li>
-    <li><a href="https://it5443.azurewebsites.net" target="_blank">KSU IT 5443 Web Tech</a></li>
-    </ul>
-
-<footer style="margin-top: 30px;">
-    <hr>
-    <p>
-        The IT 3203 course website (hosted on GitHub Pages) is set up by 
-        <a href="http://zheng.kennesaw.edu" target="_blank" style="background-image: url();">Dr. Jack</a> 
-        of the
-        <a href="https://www.kennesaw.edu/ccse/academics/information-technology/" target="_blank">KSU IT Department</a>
-    </p>
-    <p>This class site can also be used as examples of website development using HTML/CSS/JavaScript. I
-try to keep the site as simple and clean as possible. The source code repository is located at
-        <a href="https://github.com/jgzheng/IT3203" target="_blank">github.com/jgzheng/IT3203</a>
-    </p>
-    <p>
-        A barebone version of this site (pure HTML, no CSS and JavaScript) can be found at <a href="barebone/" target="_blank">github.com/jgzheng/IT3203/barebone</a>. You can compare the two versions. 
-    </p>
-</footer>
-</main>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>This website was created as a class project for IT 3203</p>
+            <p><a href="https://ksuweb.github.io/IT3203/" target="_blank">Course website link</a></p>   <!-- Link to the course website -->
+        </div>
+    </footer>
 </body>
 </html>
